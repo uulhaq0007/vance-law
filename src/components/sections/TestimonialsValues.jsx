@@ -27,7 +27,7 @@ export default function TestimonialsValues() {
         onMouseLeave={() => setPaused(false)}
       >
         <img
-          src="/images/cta-bg.jpg"
+          src={`${import.meta.env.BASE_URL}images/cta-bg.jpg`}
           alt=""
           aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover opacity-10"

@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#1a1a1a] text-white/60">
       <img
-        src="/images/footer-bg.jpg"
+        src={`${import.meta.env.BASE_URL}images/footer-bg.jpg`}
         alt=""
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover opacity-[0.08]"

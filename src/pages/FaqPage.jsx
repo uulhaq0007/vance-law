@@ -61,7 +61,7 @@ export default function FaqPage() {
             <aside className="lg:col-span-4">
               <Reveal delay={150}>
                 <img
-                  src="/images/feature.jpg"
+                  src={`${import.meta.env.BASE_URL}images/feature.jpg`}
                   alt=""
                   aria-hidden="true"
                   className="h-[300px] w-full object-cover"

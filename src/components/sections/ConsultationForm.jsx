@@ -34,7 +34,7 @@ export default function ConsultationForm() {
   return (
     <section className="relative overflow-hidden bg-mist">
       <img
-        src="/images/hero-1.jpg"
+        src={`${import.meta.env.BASE_URL}images/hero-1.jpg`}
         alt=""
         aria-hidden="true"
         className="absolute inset-0 h-full w-full object-cover opacity-[0.07]"
@@ -45,7 +45,7 @@ export default function ConsultationForm() {
         <div className="grid items-end gap-10 lg:grid-cols-12">
           <div className="hidden lg:col-span-4 lg:block">
             <img
-              src="/images/consult-lawyer.jpg"
+              src={`${import.meta.env.BASE_URL}images/consult-lawyer.jpg`}
               alt="Attorney available for consultation"
               className="h-[480px] w-full object-cover object-top"
               loading="lazy"

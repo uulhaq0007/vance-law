@@ -47,7 +47,7 @@ export const navigation = [
 
 export const heroSlides = [
   {
-    image: '/images/hero-1.jpg',
+    image: `${import.meta.env.BASE_URL}images/hero-1.jpg`,
     eyebrow: 'Trial Counsel Since 1968',
     title: 'We Are Board Certified Family Law Specialists',
     text: 'Nearly six decades representing families, founders and the wrongly accused across Oregon and Washington. Consultations are free and confidential.',
@@ -55,18 +55,18 @@ export const heroSlides = [
     secondary: { label: 'View Practice Areas', to: '/practice' },
   },
   {
-    image: '/images/hero-2.jpg',
+    image: `${import.meta.env.BASE_URL}images/hero-2.jpg`,
     eyebrow: 'Senior Trial Attorney',
     title: 'Margaret L. Thornbury',
     text: 'Forty-one jury trials, thirty-three verdicts for the plaintiff. When the other side will not settle fairly, we are ready for the courtroom.',
     portrait: true,
-    portraitSrc: '/images/attorney-2.jpg',
+    portraitSrc: `${import.meta.env.BASE_URL}images/attorney-2.jpg`,
     portraitAlt: 'Margaret L. Thornbury, senior trial attorney',
     primary: { label: 'Make an Appointment', to: '/contact' },
     secondary: { label: 'Meet the Team', to: '/attorneys' },
   },
   {
-    image: '/images/hero-3.jpg',
+    image: `${import.meta.env.BASE_URL}images/hero-3.jpg`,
     eyebrow: 'We Are Vance & Thornbury',
     title: 'Attorneys Fighting For Your Freedom',
     text: 'Criminal defence built on preparation, not bluster. We read every page of discovery and we tell you plainly where you stand.',
@@ -133,9 +133,9 @@ export const practiceAreas = [
 ]
 
 export const aboutTiles = [
-  { image: '/images/about-1.jpg', title: 'Request a Quote', icon: 'edit' },
-  { image: '/images/about-2.jpg', title: 'Investigation', icon: 'search' },
-  { image: '/images/about-3.jpg', title: 'Legal Proceeding', icon: 'gavel' },
+  { image: `${import.meta.env.BASE_URL}images/about-1.jpg`, title: 'Request a Quote', icon: 'edit' },
+  { image: `${import.meta.env.BASE_URL}images/about-2.jpg`, title: 'Investigation', icon: 'search' },
+  { image: `${import.meta.env.BASE_URL}images/about-3.jpg`, title: 'Legal Proceeding', icon: 'gavel' },
 ]
 
 export const history = [
@@ -159,30 +159,30 @@ export const values = [
 ]
 
 export const attorneys = [
-  { slug: 'harlan-vance', name: 'Harlan Vance', role: 'Managing Partner', area: 'Corporate Law', phone: '+1 (503) 555 0110', email: 'h.vance@vancethornbury.law', image: '/images/attorney-1.jpg',
+  { slug: 'harlan-vance', name: 'Harlan Vance', role: 'Managing Partner', area: 'Corporate Law', phone: '+1 (503) 555 0110', email: 'h.vance@vancethornbury.law', image: `${import.meta.env.BASE_URL}images/attorney-1.jpg`,
     bio: 'Harlan has advised closely held businesses for twenty-six years, with a particular focus on shareholder disputes and succession in family-owned companies.' },
-  { slug: 'margaret-thornbury', name: 'Margaret L. Thornbury', role: 'Senior Partner', area: 'Family Law', phone: '+1 (503) 555 0114', email: 'm.thornbury@vancethornbury.law', image: '/images/attorney-2.jpg',
+  { slug: 'margaret-thornbury', name: 'Margaret L. Thornbury', role: 'Senior Partner', area: 'Family Law', phone: '+1 (503) 555 0114', email: 'm.thornbury@vancethornbury.law', image: `${import.meta.env.BASE_URL}images/attorney-2.jpg`,
     bio: 'A board certified family law specialist and the firm’s most experienced trial attorney, with forty-one jury trials to her name.' },
-  { slug: 'desmond-okafor', name: 'Desmond Okafor', role: 'Partner', area: 'Criminal Defence', phone: '+1 (503) 555 0121', email: 'd.okafor@vancethornbury.law', image: '/images/attorney-3.jpg',
+  { slug: 'desmond-okafor', name: 'Desmond Okafor', role: 'Partner', area: 'Criminal Defence', phone: '+1 (503) 555 0121', email: 'd.okafor@vancethornbury.law', image: `${import.meta.env.BASE_URL}images/attorney-3.jpg`,
     bio: 'A former public defender who has tried more than ninety criminal matters, Desmond leads the firm’s defence and appellate practice.' },
-  { slug: 'ines-caballero', name: 'Inés Caballero', role: 'Associate Partner', area: 'Immigration Law', phone: '+1 (503) 555 0136', email: 'i.caballero@vancethornbury.law', image: '/images/attorney-4.jpg',
+  { slug: 'ines-caballero', name: 'Inés Caballero', role: 'Associate Partner', area: 'Immigration Law', phone: '+1 (503) 555 0136', email: 'i.caballero@vancethornbury.law', image: `${import.meta.env.BASE_URL}images/attorney-4.jpg`,
     bio: 'Inés represents families and employers before USCIS and the immigration courts, and runs the firm’s pro bono naturalisation clinic.' },
 ]
 
 export const testimonials = [
-  { quote: 'They took a case two other firms had told me was hopeless, read every page of it, and found the procedural error that ended the whole matter. I have never seen anyone work that carefully.', name: 'Rowan Ellery', role: 'Founder, Ellery Fabrication', avatar: '/images/avatar-2.jpg' },
-  { quote: 'What I remember is that nobody ever oversold me. I was told exactly what was likely, what it would cost, and how long it would take — and all three turned out to be right.', name: 'Priya Sandoval', role: 'Client, Family Law', avatar: '/images/avatar-1.jpg' },
-  { quote: 'My custody matter ran eighteen months. Not once did I have to chase them for an update, and not once did I speak to someone who did not already know my file.', name: 'Grace Okonkwo', role: 'Client, Domestic Relations', avatar: '/images/avatar-3.jpg' },
+  { quote: 'They took a case two other firms had told me was hopeless, read every page of it, and found the procedural error that ended the whole matter. I have never seen anyone work that carefully.', name: 'Rowan Ellery', role: 'Founder, Ellery Fabrication', avatar: `${import.meta.env.BASE_URL}images/avatar-2.jpg` },
+  { quote: 'What I remember is that nobody ever oversold me. I was told exactly what was likely, what it would cost, and how long it would take — and all three turned out to be right.', name: 'Priya Sandoval', role: 'Client, Family Law', avatar: `${import.meta.env.BASE_URL}images/avatar-1.jpg` },
+  { quote: 'My custody matter ran eighteen months. Not once did I have to chase them for an update, and not once did I speak to someone who did not already know my file.', name: 'Grace Okonkwo', role: 'Client, Domestic Relations', avatar: `${import.meta.env.BASE_URL}images/avatar-3.jpg` },
 ]
 
 export const news = [
-  { slug: 'appellate-win-suppression', day: '21', month: 'Aug', date: 'August 21, 2026', category: 'Criminal Defence', tag: 'Appeals', author: 'Desmond Okafor', comments: 6, likes: 12, image: '/images/news-1.jpg',
+  { slug: 'appellate-win-suppression', day: '21', month: 'Aug', date: 'August 21, 2026', category: 'Criminal Defence', tag: 'Appeals', author: 'Desmond Okafor', comments: 6, likes: 12, image: `${import.meta.env.BASE_URL}images/news-1.jpg`,
     title: 'Appellate court suppresses evidence from an unlawful stop',
     excerpt: 'The panel held that an extended roadside detention without reasonable suspicion tainted everything that followed, and reversed the conviction outright.' },
-  { slug: 'paternity-and-parenting-plans', day: '27', month: 'Jul', date: 'July 27, 2026', category: 'Family Law', tag: 'Custody', author: 'Margaret Thornbury', comments: 7, likes: 5, image: '/images/news-2.jpg',
+  { slug: 'paternity-and-parenting-plans', day: '27', month: 'Jul', date: 'July 27, 2026', category: 'Family Law', tag: 'Custody', author: 'Margaret Thornbury', comments: 7, likes: 5, image: `${import.meta.env.BASE_URL}images/news-2.jpg`,
     title: 'Legal issues around paternity and parenting plans',
     excerpt: 'Establishing paternity changes support, custody and inheritance at once. Here is the order we recommend addressing them in, and why sequence matters.' },
-  { slug: 'unfair-business-practices', day: '14', month: 'Jun', date: 'June 14, 2026', category: 'Corporate Law', tag: 'Disputes', author: 'Harlan Vance', comments: 6, likes: 12, image: '/images/news-3.jpg',
+  { slug: 'unfair-business-practices', day: '14', month: 'Jun', date: 'June 14, 2026', category: 'Corporate Law', tag: 'Disputes', author: 'Harlan Vance', comments: 6, likes: 12, image: `${import.meta.env.BASE_URL}images/news-3.jpg`,
     title: 'Judgement entered in unfair business practices claim',
     excerpt: 'A three-year dispute between former partners closes with a finding of breach and an accounting order. What the decision means for shareholder agreements.' },
 ]

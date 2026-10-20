@@ -46,7 +46,7 @@ export default function PracticeDetailPage() {
             <div className="lg:col-span-8">
               <Reveal>
                 <img
-                  src="/images/feature.jpg"
+                  src={`${import.meta.env.BASE_URL}images/feature.jpg`}
                   alt=""
                   aria-hidden="true"
                   className="h-[340px] w-full object-cover"

@@ -51,7 +51,7 @@ export default function Hero() {
           <div className="hidden lg:col-span-4 lg:block">
             <div className="relative">
               <img
-                src={heroSlides[index].portraitSrc ?? '/images/hero-lawyer.jpg'}
+                src={heroSlides[index].portraitSrc ?? `${import.meta.env.BASE_URL}images/hero-lawyer.jpg`}
                 alt={heroSlides[index].portraitAlt ?? 'Attorney at Vance & Thornbury'}
                 className="h-[440px] w-full object-cover object-top"
                 loading="eager"

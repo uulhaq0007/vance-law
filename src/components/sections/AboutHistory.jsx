@@ -93,7 +93,7 @@ export default function AboutHistory() {
             <Reveal delay={200}>
               <div className="mt-10 border border-line bg-white p-6">
                 <img
-                  src="/images/history.jpg"
+                  src={`${import.meta.env.BASE_URL}images/history.jpg`}
                   alt="Attorneys reviewing a client file"
                   className="h-[190px] w-full object-cover"
                   loading="lazy"
